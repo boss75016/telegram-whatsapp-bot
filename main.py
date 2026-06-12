@@ -16,7 +16,7 @@ async def reprendre(update: Update, context: ContextTypes.DEFAULT_TYPE):
     actif = True
     await update.message.reply_text("Bot redémarré ▶️")
 
-TOKEN = "TON_TOKEN_TELEGRAM"
+TOKEN = "8581758380:AAEjYqQ5ci4EvHeT3Fa18m0v08P1IN8MJYA"
 
 app = Application.builder().token(TOKEN).build()
 
